@@ -2,7 +2,7 @@
 
 ## 🔎 Prevendo Cancelamento de Clientes (Churn)  
 
-Este projeto realiza uma **análise exploratória de dados (EDA)** para identificar padrões que influenciam o **cancelamento de clientes** (**Churn**) em uma empresa de telecomunicações.  
+Este projeto realiza uma **análise exploratória de dados  para identificar padrões que influenciam o **cancelamento de clientes** (**Churn**) em uma empresa de telecomunicações.  
 
 O código inclui:  
 ✔️ **Carregamento e visualização da base de dados**  
