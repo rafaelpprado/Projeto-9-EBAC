@@ -12,15 +12,16 @@ O código inclui:
 ✔️ **Análise do impacto de variáveis como "Idoso" e "Tipo_Contrato" no Churn**  
 ✔️ **Destaque das variáveis mais importantes para previsão**  
 
----
+## 📂 Estrutura do Projeto
 
-## 📂 **Estrutura do Projeto**
+📁 **Churn-Telecom-Analysis**  
+├── 📄 **README.md** *(Documentação do projeto)*  
+├── 🐍 **projeto9.py** *(Código Python da análise de churn)*  
+├── 📊 **projeto8.csv** *(Base de dados utilizada)*  
+└── 📦 **requirements.txt** *(Lista de dependências do projeto)*
 
 
-📁 Churn-Telecom-Analysis
-│── 📄 README.md  
-│── 📄 projeto9.py  # Código Python da análise  
-│── 📄 projeto8.csv  # Base de dados utilizada  
+
 
 ## 🔍 **Análises Realizadas**
 ### 1️⃣ **Carregamento dos Dados**
