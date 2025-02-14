@@ -1,19 +1,23 @@
-# Importando as bibliotecas necessárias
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Configurando o estilo dos gráficos
+
 sns.set(style="whitegrid")
 
-# 1) Carregando a Base de Dados
-print("Carregando os dados...")
-df = pd.read_csv(r'C:\Users\ReReu\Downloads\python\Nova pasta\1\projeto8.csv', sep=';')
+# 1A) Caminho relativo - Carregar base de dados
+caminho_csv = os.path.join(os.path.dirname(__file__), 'projeto8.csv')
 
-# Exibir as primeiras linhas do dataframe para conferir se os dados foram carregados corretamente
-print("\nVisualizando as primeiras linhas:")
-print(df.head())
+print("Caminho absoluto para o CSV:", os.path.abspath(caminho_csv))
+
+if not os.path.exists(caminho_csv):
+    print("Arquivo CSV não encontrado. Verifique se 'projeto8.csv' está na mesma pasta do script ou ajuste o caminho.")
+    exit(1)
+
+print("Carregando os dados...")
+df = pd.read_csv(caminho_csv, sep=';')
 
 # 2A) Estatísticas Descritivas
 print("\nEstatísticas Descritivas:")
